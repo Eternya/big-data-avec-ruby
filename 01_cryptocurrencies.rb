@@ -24,8 +24,15 @@ puts
 puts "La ou les crypto qui ont la plus petite valeur."
 puts my_hash.sort_by { |key, value| value }.first
 puts
-puts "Le nombre de crypto contenant le mot 'coin'."
 
+# indique la valeur de la plus petite valeur des crypto
+puts "Le nombre de crypto contenant le mot 'coin'."
+tab_coin = []
+tab_coin += devise.grep(/coin/)
+tab_coin += devise.grep(/coin/)
+puts "#{tab_coin}"
+puts "Il y a #{tab_coin.size} de crypto qui contiennent le mot coin."
+puts
 
 #puts my_hash.count()
 puts

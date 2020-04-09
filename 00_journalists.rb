@@ -18,7 +18,7 @@ tab_aude = []
 tab_aude += journalistes.grep(/aude/)
 tab_aude += journalistes.grep(/Aude/)
 puts "#{tab_aude}"
-puts "Il y a #{tab_aude.size} handles qui contiennent aude."
+puts "Il y a #{tab_aude.size} de handles qui contiennent le nom aude."
 puts
 
 # le nombre de handle ayant une majuscule
