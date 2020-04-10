@@ -23,7 +23,7 @@ puts
 
 # le nombre de handle ayant une majuscule
 puts "Combien commencent par une majuscule (première lettre juste après le @) ?"
-puts "Il y a #{journalistes.count {|x| x[/@+\p{Upper}/] }} handles qii commencent par une majuscule."
+puts "Il y a #{journalistes.count {|x| x[/@+\p{Upper}/] }} handles qui commencent par une majuscule."
 puts
 
 # le nombre de handle ayant une majuscule
