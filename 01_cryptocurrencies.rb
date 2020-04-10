@@ -28,7 +28,7 @@ puts
 # indique la valeur de la plus petite valeur des crypto
 puts "Le nombre de crypto contenant le mot 'coin'."
 tab_coin = []
-tab_coin += devise.grep(/coin/)
+tab_coin += devise.grep(/Coin/)
 tab_coin += devise.grep(/coin/)
 puts "#{tab_coin}"
 puts "Il y a #{tab_coin.size} de crypto qui contiennent le mot coin."
