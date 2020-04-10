@@ -28,7 +28,7 @@ puts
 
 # le nombre de handle ayant une majuscule
 puts "Combien contiennent au moins une majuscule ?"
-puts "Il y a #{journalists.count {|x| x[/\p{Upper}/] }} qui contiennent au moins une majuscule."
+puts "Il y a #{journalistes.count {|x| x[/\p{Upper}/] }} qui contiennent au moins une majuscule."
 puts
 
 # indique le nombre d'undescore
